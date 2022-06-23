@@ -22,7 +22,9 @@ import bs4
 from functools import partial
 import PIL.ImageTk
 import threading
-
+import wikipedia
+import pycrypto
+import boto3
 
 
 #to establish sql connection   #user is root, sql password is root, host running in same machine-localhost, name of databse is jarvis
